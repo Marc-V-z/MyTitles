@@ -10,6 +10,6 @@ export class Link {
     }
 
     get site(): string {
-        return new URL (this.url).hostname.replace(/^WWW\./, "");
+        return new URL (this.url).hostname.replace(/^www\./, "");
     }
 }
